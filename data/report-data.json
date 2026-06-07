@@ -6,7 +6,7 @@
     "from": "2021-01",
     "through": "2026-05"
   },
-  "generated_at": "2026-06-07T16:10:20+00:00",
+  "generated_at": "2026-06-07T16:37:57+00:00",
   "entry_count": 59,
   "score_display": {
     "reader_label_zh": "商业进展指数",
@@ -17456,7 +17456,7 @@
       "reader_topics": [
         {
           "value": "entanglement-analysis",
-          "reader_label": "????",
+          "reader_label": "纠缠分析",
           "relations": [],
           "retired": false,
           "badge_parent_id": ""
@@ -17472,7 +17472,7 @@
       "reader_techniques": [
         {
           "value": "schmidt-decomposition-estimation",
-          "reader_label": "Schmidt ????",
+          "reader_label": "Schmidt 分解估计",
           "relations": [
             {
               "predicate": "supports-task",
@@ -17504,12 +17504,12 @@
         {
           "kind": "topic",
           "value": "entanglement-analysis",
-          "reader_label": "????"
+          "reader_label": "纠缠分析"
         },
         {
           "kind": "technique",
           "value": "schmidt-decomposition-estimation",
-          "reader_label": "Schmidt ????"
+          "reader_label": "Schmidt 分解估计"
         },
         {
           "kind": "technique",
@@ -17617,7 +17617,7 @@
             {
               "id": "entanglement-analysis",
               "label": "entanglement analysis",
-              "zh_label": "????"
+              "zh_label": "纠缠分析"
             }
           ],
           "applications": [
@@ -17658,7 +17658,7 @@
             {
               "id": "schmidt-decomposition-estimation",
               "label": "Schmidt decomposition estimation",
-              "zh_label": "Schmidt ????"
+              "zh_label": "Schmidt 分解估计"
             },
             {
               "id": "variational-ansatz",
@@ -17678,13 +17678,13 @@
           "variational-ansatz"
         ],
         "display_values": [
-          "????",
+          "纠缠分析",
           "量子硬件验证",
           "量子算法基准测试",
           "量子计算供应商",
           "变分量子算法",
           "超导量子比特",
-          "Schmidt ????",
+          "Schmidt 分解估计",
           "变分 ansatz"
         ]
       },
@@ -17793,8 +17793,8 @@
           "source": "manual venue seed for discovery-gap repair"
         }
       },
-      "reader_search_text": "near-term efficient quantum algorithms for entanglement analysis 用参数化量子线路估计 schmidt 分解等纠缠指标，并在超导处理器上验证实验 chen202308nearterm entanglement analysis schmidt decomposition logarithmic negativity superconducting processor baidu research entanglement analysis schmidt decomposition logarithmic negativity superconducting processor baidu research 百度 baidu institute for quantum computing, baidu research baidu research baidu quantum 百度 百度量子 百度研究院 ???? 量子硬件验证 量子算法基准测试 量子计算供应商 变分量子算法 超导量子比特 schmidt ???? 变分 ansatz 量子硬件验证 量子算法基准测试 china 中国 beijing 北京 china 中国 beijing 北京 physical review applied article arxiv preprint official-web",
-      "search_text": "near-term efficient quantum algorithms for entanglement analysis 用参数化量子线路估计 schmidt 分解等纠缠指标，并在超导处理器上验证实验 chen202308nearterm entanglement analysis schmidt decomposition logarithmic negativity superconducting processor baidu research entanglement analysis schmidt decomposition logarithmic negativity superconducting processor baidu research 百度 baidu institute for quantum computing, baidu research baidu research baidu quantum 百度 百度量子 百度研究院 ???? 量子硬件验证 量子算法基准测试 量子计算供应商 变分量子算法 超导量子比特 schmidt ???? 变分 ansatz 量子硬件验证 量子算法基准测试 china 中国 beijing 北京 china 中国 beijing 北京 physical review applied article arxiv preprint official-web"
+      "reader_search_text": "near-term efficient quantum algorithms for entanglement analysis 用参数化量子线路估计 schmidt 分解等纠缠指标，并在超导处理器上验证实验 chen202308nearterm entanglement analysis schmidt decomposition logarithmic negativity superconducting processor baidu research entanglement analysis schmidt decomposition logarithmic negativity superconducting processor baidu research 百度 baidu institute for quantum computing, baidu research baidu research baidu quantum 百度 百度量子 百度研究院 纠缠分析 量子硬件验证 量子算法基准测试 量子计算供应商 变分量子算法 超导量子比特 schmidt 分解估计 变分 ansatz 量子硬件验证 量子算法基准测试 china 中国 beijing 北京 china 中国 beijing 北京 physical review applied article arxiv preprint official-web",
+      "search_text": "near-term efficient quantum algorithms for entanglement analysis 用参数化量子线路估计 schmidt 分解等纠缠指标，并在超导处理器上验证实验 chen202308nearterm entanglement analysis schmidt decomposition logarithmic negativity superconducting processor baidu research entanglement analysis schmidt decomposition logarithmic negativity superconducting processor baidu research 百度 baidu institute for quantum computing, baidu research baidu research baidu quantum 百度 百度量子 百度研究院 纠缠分析 量子硬件验证 量子算法基准测试 量子计算供应商 变分量子算法 超导量子比特 schmidt 分解估计 变分 ansatz 量子硬件验证 量子算法基准测试 china 中国 beijing 北京 china 中国 beijing 北京 physical review applied article arxiv preprint official-web"
     },
     {
       "material_id": "he202508nonvariational",
@@ -18654,7 +18654,7 @@
       "reader_topics": [
         {
           "value": "measurement-error-mitigation",
-          "reader_label": "??????",
+          "reader_label": "测量误差缓解",
           "relations": [
             {
               "predicate": "uses-technique",
@@ -18668,7 +18668,7 @@
       "reader_techniques": [
         {
           "value": "truncated-neumann-series",
-          "reader_label": "?? Neumann ??",
+          "reader_label": "截断 Neumann 级数",
           "relations": [
             {
               "predicate": "supports-task",
@@ -18700,12 +18700,12 @@
         {
           "kind": "topic",
           "value": "measurement-error-mitigation",
-          "reader_label": "??????"
+          "reader_label": "测量误差缓解"
         },
         {
           "kind": "technique",
           "value": "truncated-neumann-series",
-          "reader_label": "?? Neumann ??"
+          "reader_label": "截断 Neumann 级数"
         },
         {
           "kind": "technique",
@@ -18803,7 +18803,7 @@
             {
               "id": "measurement-error-mitigation",
               "label": "measurement error mitigation",
-              "zh_label": "??????"
+              "zh_label": "测量误差缓解"
             }
           ],
           "applications": [
@@ -18832,7 +18832,7 @@
             {
               "id": "truncated-neumann-series",
               "label": "truncated Neumann series",
-              "zh_label": "?? Neumann ??"
+              "zh_label": "截断 Neumann 级数"
             },
             {
               "id": "error-mitigation",
@@ -18850,11 +18850,11 @@
           "error-mitigation"
         ],
         "display_values": [
-          "??????",
+          "测量误差缓解",
           "量子硬件验证",
           "量子算法基准测试",
           "量子计算供应商",
-          "?? Neumann ??",
+          "截断 Neumann 级数",
           "误差缓解"
         ]
       },
@@ -18962,8 +18962,8 @@
           "source": "manual venue seed for discovery-gap repair"
         }
       },
-      "reader_search_text": "measurement error mitigation via truncated neumann series 用截断 neumann 级数缓解量子测量误差，降低近端设备读数校正流程主要成本 wang202103measurement measurement error mitigation truncated neumann series readout errors near-term quantum processors baidu research measurement error mitigation truncated neumann series readout errors near term quantum processors baidu research 百度 baidu institute for quantum computing, baidu research baidu research baidu quantum 百度 百度量子 百度研究院 ?????? 量子硬件验证 量子算法基准测试 量子计算供应商 ?? neumann ?? 误差缓解 量子硬件验证 量子算法基准测试 china 中国 beijing 北京 china 中国 beijing 北京 arxiv preprint arxiv",
-      "search_text": "measurement error mitigation via truncated neumann series 用截断 neumann 级数缓解量子测量误差，降低近端设备读数校正流程主要成本 wang202103measurement measurement error mitigation truncated neumann series readout errors near-term quantum processors baidu research measurement error mitigation truncated neumann series readout errors near term quantum processors baidu research 百度 baidu institute for quantum computing, baidu research baidu research baidu quantum 百度 百度量子 百度研究院 ?????? 量子硬件验证 量子算法基准测试 量子计算供应商 ?? neumann ?? 误差缓解 量子硬件验证 量子算法基准测试 china 中国 beijing 北京 china 中国 beijing 北京 arxiv preprint arxiv"
+      "reader_search_text": "measurement error mitigation via truncated neumann series 用截断 neumann 级数缓解量子测量误差，降低近端设备读数校正流程主要成本 wang202103measurement measurement error mitigation truncated neumann series readout errors near-term quantum processors baidu research measurement error mitigation truncated neumann series readout errors near term quantum processors baidu research 百度 baidu institute for quantum computing, baidu research baidu research baidu quantum 百度 百度量子 百度研究院 测量误差缓解 量子硬件验证 量子算法基准测试 量子计算供应商 截断 neumann 级数 误差缓解 量子硬件验证 量子算法基准测试 china 中国 beijing 北京 china 中国 beijing 北京 arxiv preprint arxiv",
+      "search_text": "measurement error mitigation via truncated neumann series 用截断 neumann 级数缓解量子测量误差，降低近端设备读数校正流程主要成本 wang202103measurement measurement error mitigation truncated neumann series readout errors near-term quantum processors baidu research measurement error mitigation truncated neumann series readout errors near term quantum processors baidu research 百度 baidu institute for quantum computing, baidu research baidu research baidu quantum 百度 百度量子 百度研究院 测量误差缓解 量子硬件验证 量子算法基准测试 量子计算供应商 截断 neumann 级数 误差缓解 量子硬件验证 量子算法基准测试 china 中国 beijing 北京 china 中国 beijing 北京 arxiv preprint arxiv"
     },
     {
       "material_id": "zhan202212experimental",
@@ -22153,7 +22153,7 @@
       "reader_techniques": [
         {
           "value": "quantum-data-encoding",
-          "reader_label": "??????",
+          "reader_label": "量子数据编码",
           "relations": [
             {
               "predicate": "supports-task",
@@ -22185,7 +22185,7 @@
         {
           "kind": "technique",
           "value": "quantum-data-encoding",
-          "reader_label": "??????"
+          "reader_label": "量子数据编码"
         },
         {
           "kind": "technique",
@@ -22321,7 +22321,7 @@
             {
               "id": "quantum-data-encoding",
               "label": "quantum data encoding",
-              "zh_label": "??????"
+              "zh_label": "量子数据编码"
             },
             {
               "id": "variational-ansatz",
@@ -22343,7 +22343,7 @@
           "量子算法基准测试",
           "量子计算供应商",
           "变分量子算法",
-          "??????",
+          "量子数据编码",
           "变分 ansatz"
         ]
       },
@@ -22450,8 +22450,8 @@
           "source": "manual venue seed for discovery-gap repair"
         }
       },
-      "reader_search_text": "concentration of data encoding in parameterized quantum circuits 揭示参数化量子线路的数据编码集中现象，提醒量子分类器需控制编码深度 li202210concentration data encoding parameterized quantum circuit quantum neural network concentration baidu research data encoding parameterized quantum circuit quantum neural network concentration baidu research 百度 baidu institute for quantum computing, baidu research baidu research baidu quantum 百度 百度量子 百度研究院 量子机器学习 量子算法基准测试 量子计算供应商 变分量子算法 ?????? 变分 ansatz 量子算法基准测试 china 中国 beijing 北京 china 中国 beijing 北京 neurips 2022 paper arxiv preprint official-web",
-      "search_text": "concentration of data encoding in parameterized quantum circuits 揭示参数化量子线路的数据编码集中现象，提醒量子分类器需控制编码深度 li202210concentration data encoding parameterized quantum circuit quantum neural network concentration baidu research data encoding parameterized quantum circuit quantum neural network concentration baidu research 百度 baidu institute for quantum computing, baidu research baidu research baidu quantum 百度 百度量子 百度研究院 量子机器学习 量子算法基准测试 量子计算供应商 变分量子算法 ?????? 变分 ansatz 量子算法基准测试 china 中国 beijing 北京 china 中国 beijing 北京 neurips 2022 paper arxiv preprint official-web"
+      "reader_search_text": "concentration of data encoding in parameterized quantum circuits 揭示参数化量子线路的数据编码集中现象，提醒量子分类器需控制编码深度 li202210concentration data encoding parameterized quantum circuit quantum neural network concentration baidu research data encoding parameterized quantum circuit quantum neural network concentration baidu research 百度 baidu institute for quantum computing, baidu research baidu research baidu quantum 百度 百度量子 百度研究院 量子机器学习 量子算法基准测试 量子计算供应商 变分量子算法 量子数据编码 变分 ansatz 量子算法基准测试 china 中国 beijing 北京 china 中国 beijing 北京 neurips 2022 paper arxiv preprint official-web",
+      "search_text": "concentration of data encoding in parameterized quantum circuits 揭示参数化量子线路的数据编码集中现象，提醒量子分类器需控制编码深度 li202210concentration data encoding parameterized quantum circuit quantum neural network concentration baidu research data encoding parameterized quantum circuit quantum neural network concentration baidu research 百度 baidu institute for quantum computing, baidu research baidu research baidu quantum 百度 百度量子 百度研究院 量子机器学习 量子算法基准测试 量子计算供应商 变分量子算法 量子数据编码 变分 ansatz 量子算法基准测试 china 中国 beijing 北京 china 中国 beijing 北京 neurips 2022 paper arxiv preprint official-web"
     },
     {
       "material_id": "wang202205detecting",
@@ -22497,7 +22497,7 @@
       "reader_topics": [
         {
           "value": "entanglement-analysis",
-          "reader_label": "????",
+          "reader_label": "纠缠分析",
           "relations": [],
           "retired": false,
           "badge_parent_id": ""
@@ -22506,7 +22506,7 @@
       "reader_techniques": [
         {
           "value": "quasi-probability-decomposition",
-          "reader_label": "?????",
+          "reader_label": "准概率分解",
           "relations": [],
           "retired": false,
           "badge_parent_id": ""
@@ -22528,12 +22528,12 @@
         {
           "kind": "topic",
           "value": "entanglement-analysis",
-          "reader_label": "????"
+          "reader_label": "纠缠分析"
         },
         {
           "kind": "technique",
           "value": "quasi-probability-decomposition",
-          "reader_label": "?????"
+          "reader_label": "准概率分解"
         },
         {
           "kind": "technique",
@@ -22641,7 +22641,7 @@
             {
               "id": "entanglement-analysis",
               "label": "entanglement analysis",
-              "zh_label": "????"
+              "zh_label": "纠缠分析"
             }
           ],
           "applications": [
@@ -22671,7 +22671,7 @@
             {
               "id": "quasi-probability-decomposition",
               "label": "quasi-probability decomposition",
-              "zh_label": "?????"
+              "zh_label": "准概率分解"
             },
             {
               "id": "variational-ansatz",
@@ -22689,11 +22689,11 @@
           "variational-ansatz"
         ],
         "display_values": [
-          "????",
+          "纠缠分析",
           "量子算法基准测试",
           "量子计算供应商",
           "变分量子算法",
-          "?????",
+          "准概率分解",
           "变分 ansatz"
         ]
       },
@@ -22801,8 +22801,8 @@
           "source": "manual venue seed for discovery-gap repair"
         }
       },
-      "reader_search_text": "detecting and quantifying entanglement on near-term quantum devices 用变分算法和准概率分解检测并量化近端设备纠缠，降低实验测量资源负担 wang202205detecting entanglement detection logarithmic negativity variational algorithm quasi-probability decomposition baidu research entanglement detection logarithmic negativity variational algorithm quasi probability decomposition baidu research 百度 baidu institute for quantum computing, baidu research baidu research baidu quantum 百度 百度量子 百度研究院 ???? 量子算法基准测试 量子计算供应商 变分量子算法 ????? 变分 ansatz 量子算法基准测试 china 中国 beijing 北京 china 中国 beijing 北京 npj quantum information article arxiv preprint npj-quantum-information",
-      "search_text": "detecting and quantifying entanglement on near-term quantum devices 用变分算法和准概率分解检测并量化近端设备纠缠，降低实验测量资源负担 wang202205detecting entanglement detection logarithmic negativity variational algorithm quasi-probability decomposition baidu research entanglement detection logarithmic negativity variational algorithm quasi probability decomposition baidu research 百度 baidu institute for quantum computing, baidu research baidu research baidu quantum 百度 百度量子 百度研究院 ???? 量子算法基准测试 量子计算供应商 变分量子算法 ????? 变分 ansatz 量子算法基准测试 china 中国 beijing 北京 china 中国 beijing 北京 npj quantum information article arxiv preprint npj-quantum-information"
+      "reader_search_text": "detecting and quantifying entanglement on near-term quantum devices 用变分算法和准概率分解检测并量化近端设备纠缠，降低实验测量资源负担 wang202205detecting entanglement detection logarithmic negativity variational algorithm quasi-probability decomposition baidu research entanglement detection logarithmic negativity variational algorithm quasi probability decomposition baidu research 百度 baidu institute for quantum computing, baidu research baidu research baidu quantum 百度 百度量子 百度研究院 纠缠分析 量子算法基准测试 量子计算供应商 变分量子算法 准概率分解 变分 ansatz 量子算法基准测试 china 中国 beijing 北京 china 中国 beijing 北京 npj quantum information article arxiv preprint npj-quantum-information",
+      "search_text": "detecting and quantifying entanglement on near-term quantum devices 用变分算法和准概率分解检测并量化近端设备纠缠，降低实验测量资源负担 wang202205detecting entanglement detection logarithmic negativity variational algorithm quasi-probability decomposition baidu research entanglement detection logarithmic negativity variational algorithm quasi probability decomposition baidu research 百度 baidu institute for quantum computing, baidu research baidu research baidu quantum 百度 百度量子 百度研究院 纠缠分析 量子算法基准测试 量子计算供应商 变分量子算法 准概率分解 变分 ansatz 量子算法基准测试 china 中国 beijing 北京 china 中国 beijing 北京 npj quantum information article arxiv preprint npj-quantum-information"
     },
     {
       "material_id": "wang202312quantumphaseprocessing",
@@ -24284,14 +24284,14 @@
       "reader_topics": [
         {
           "value": "distributed-quantum-information-processing",
-          "reader_label": "?????????",
+          "reader_label": "分布式量子信息处理",
           "relations": [],
           "retired": false,
           "badge_parent_id": ""
         },
         {
           "value": "entanglement-analysis",
-          "reader_label": "????",
+          "reader_label": "纠缠分析",
           "relations": [],
           "retired": false,
           "badge_parent_id": ""
@@ -24300,7 +24300,7 @@
       "reader_techniques": [
         {
           "value": "locc-protocol-optimization",
-          "reader_label": "LOCC ????",
+          "reader_label": "LOCC 协议优化",
           "relations": [
             {
               "predicate": "supports-task",
@@ -24327,12 +24327,12 @@
         {
           "kind": "topic",
           "value": "distributed-quantum-information-processing",
-          "reader_label": "?????????"
+          "reader_label": "分布式量子信息处理"
         },
         {
           "kind": "technique",
           "value": "locc-protocol-optimization",
-          "reader_label": "LOCC ????"
+          "reader_label": "LOCC 协议优化"
         },
         {
           "kind": "technique",
@@ -24440,12 +24440,12 @@
             {
               "id": "distributed-quantum-information-processing",
               "label": "distributed quantum information processing",
-              "zh_label": "?????????"
+              "zh_label": "分布式量子信息处理"
             },
             {
               "id": "entanglement-analysis",
               "label": "entanglement analysis",
-              "zh_label": "????"
+              "zh_label": "纠缠分析"
             }
           ],
           "applications": [
@@ -24475,7 +24475,7 @@
             {
               "id": "locc-protocol-optimization",
               "label": "LOCC protocol optimization",
-              "zh_label": "LOCC ????"
+              "zh_label": "LOCC 协议优化"
             },
             {
               "id": "variational-ansatz",
@@ -24494,12 +24494,12 @@
           "variational-ansatz"
         ],
         "display_values": [
-          "?????????",
-          "????",
+          "分布式量子信息处理",
+          "纠缠分析",
           "量子算法基准测试",
           "量子计算供应商",
           "变分量子算法",
-          "LOCC ????",
+          "LOCC 协议优化",
           "变分 ansatz"
         ]
       },
@@ -24607,8 +24607,8 @@
           "source": "manual venue seed for discovery-gap repair"
         }
       },
-      "reader_search_text": "practical distributed quantum information processing with loccnet 用 loccnet 设计分布式量子信息协议，优化纠缠蒸馏、态区分和信道模拟任务 zhao202111practical loccnet distributed quantum information processing entanglement distillation quantum state discrimination baidu research loccnet distributed quantum information processing entanglement distillation quantum state discrimination baidu research 百度 baidu institute for quantum computing, baidu research baidu research baidu quantum 百度 百度量子 百度研究院 ????????? ???? 量子算法基准测试 量子计算供应商 变分量子算法 locc ???? 变分 ansatz 量子算法基准测试 china 中国 beijing 北京 china 中国 beijing 北京 npj quantum information article arxiv preprint npj-quantum-information",
-      "search_text": "practical distributed quantum information processing with loccnet 用 loccnet 设计分布式量子信息协议，优化纠缠蒸馏、态区分和信道模拟任务 zhao202111practical loccnet distributed quantum information processing entanglement distillation quantum state discrimination baidu research loccnet distributed quantum information processing entanglement distillation quantum state discrimination baidu research 百度 baidu institute for quantum computing, baidu research baidu research baidu quantum 百度 百度量子 百度研究院 ????????? ???? 量子算法基准测试 量子计算供应商 变分量子算法 locc ???? 变分 ansatz 量子算法基准测试 china 中国 beijing 北京 china 中国 beijing 北京 npj quantum information article arxiv preprint npj-quantum-information"
+      "reader_search_text": "practical distributed quantum information processing with loccnet 用 loccnet 设计分布式量子信息协议，优化纠缠蒸馏、态区分和信道模拟任务 zhao202111practical loccnet distributed quantum information processing entanglement distillation quantum state discrimination baidu research loccnet distributed quantum information processing entanglement distillation quantum state discrimination baidu research 百度 baidu institute for quantum computing, baidu research baidu research baidu quantum 百度 百度量子 百度研究院 分布式量子信息处理 纠缠分析 量子算法基准测试 量子计算供应商 变分量子算法 locc 协议优化 变分 ansatz 量子算法基准测试 china 中国 beijing 北京 china 中国 beijing 北京 npj quantum information article arxiv preprint npj-quantum-information",
+      "search_text": "practical distributed quantum information processing with loccnet 用 loccnet 设计分布式量子信息协议，优化纠缠蒸馏、态区分和信道模拟任务 zhao202111practical loccnet distributed quantum information processing entanglement distillation quantum state discrimination baidu research loccnet distributed quantum information processing entanglement distillation quantum state discrimination baidu research 百度 baidu institute for quantum computing, baidu research baidu research baidu quantum 百度 百度量子 百度研究院 分布式量子信息处理 纠缠分析 量子算法基准测试 量子计算供应商 变分量子算法 locc 协议优化 变分 ansatz 量子算法基准测试 china 中国 beijing 北京 china 中国 beijing 北京 npj quantum information article arxiv preprint npj-quantum-information"
     },
     {
       "material_id": "9720593ba907",
@@ -41437,7 +41437,7 @@
       "reader_topics": [
         {
           "value": "entanglement-analysis",
-          "reader_label": "????",
+          "reader_label": "纠缠分析",
           "relations": [],
           "retired": false,
           "badge_parent_id": ""
@@ -41453,7 +41453,7 @@
       "reader_techniques": [
         {
           "value": "schmidt-decomposition-estimation",
-          "reader_label": "Schmidt ????",
+          "reader_label": "Schmidt 分解估计",
           "relations": [
             {
               "predicate": "supports-task",
@@ -41485,12 +41485,12 @@
         {
           "kind": "topic",
           "value": "entanglement-analysis",
-          "reader_label": "????"
+          "reader_label": "纠缠分析"
         },
         {
           "kind": "technique",
           "value": "schmidt-decomposition-estimation",
-          "reader_label": "Schmidt ????"
+          "reader_label": "Schmidt 分解估计"
         },
         {
           "kind": "technique",
@@ -41598,7 +41598,7 @@
             {
               "id": "entanglement-analysis",
               "label": "entanglement analysis",
-              "zh_label": "????"
+              "zh_label": "纠缠分析"
             }
           ],
           "applications": [
@@ -41639,7 +41639,7 @@
             {
               "id": "schmidt-decomposition-estimation",
               "label": "Schmidt decomposition estimation",
-              "zh_label": "Schmidt ????"
+              "zh_label": "Schmidt 分解估计"
             },
             {
               "id": "variational-ansatz",
@@ -41659,13 +41659,13 @@
           "variational-ansatz"
         ],
         "display_values": [
-          "????",
+          "纠缠分析",
           "量子硬件验证",
           "量子算法基准测试",
           "量子计算供应商",
           "变分量子算法",
           "超导量子比特",
-          "Schmidt ????",
+          "Schmidt 分解估计",
           "变分 ansatz"
         ]
       },
@@ -41774,8 +41774,8 @@
           "source": "manual venue seed for discovery-gap repair"
         }
       },
-      "reader_search_text": "near-term efficient quantum algorithms for entanglement analysis 用参数化量子线路估计 schmidt 分解等纠缠指标，并在超导处理器上验证实验 chen202308nearterm entanglement analysis schmidt decomposition logarithmic negativity superconducting processor baidu research entanglement analysis schmidt decomposition logarithmic negativity superconducting processor baidu research 百度 baidu institute for quantum computing, baidu research baidu research baidu quantum 百度 百度量子 百度研究院 ???? 量子硬件验证 量子算法基准测试 量子计算供应商 变分量子算法 超导量子比特 schmidt ???? 变分 ansatz 量子硬件验证 量子算法基准测试 china 中国 beijing 北京 china 中国 beijing 北京 physical review applied article arxiv preprint official-web",
-      "search_text": "near-term efficient quantum algorithms for entanglement analysis 用参数化量子线路估计 schmidt 分解等纠缠指标，并在超导处理器上验证实验 chen202308nearterm entanglement analysis schmidt decomposition logarithmic negativity superconducting processor baidu research entanglement analysis schmidt decomposition logarithmic negativity superconducting processor baidu research 百度 baidu institute for quantum computing, baidu research baidu research baidu quantum 百度 百度量子 百度研究院 ???? 量子硬件验证 量子算法基准测试 量子计算供应商 变分量子算法 超导量子比特 schmidt ???? 变分 ansatz 量子硬件验证 量子算法基准测试 china 中国 beijing 北京 china 中国 beijing 北京 physical review applied article arxiv preprint official-web"
+      "reader_search_text": "near-term efficient quantum algorithms for entanglement analysis 用参数化量子线路估计 schmidt 分解等纠缠指标，并在超导处理器上验证实验 chen202308nearterm entanglement analysis schmidt decomposition logarithmic negativity superconducting processor baidu research entanglement analysis schmidt decomposition logarithmic negativity superconducting processor baidu research 百度 baidu institute for quantum computing, baidu research baidu research baidu quantum 百度 百度量子 百度研究院 纠缠分析 量子硬件验证 量子算法基准测试 量子计算供应商 变分量子算法 超导量子比特 schmidt 分解估计 变分 ansatz 量子硬件验证 量子算法基准测试 china 中国 beijing 北京 china 中国 beijing 北京 physical review applied article arxiv preprint official-web",
+      "search_text": "near-term efficient quantum algorithms for entanglement analysis 用参数化量子线路估计 schmidt 分解等纠缠指标，并在超导处理器上验证实验 chen202308nearterm entanglement analysis schmidt decomposition logarithmic negativity superconducting processor baidu research entanglement analysis schmidt decomposition logarithmic negativity superconducting processor baidu research 百度 baidu institute for quantum computing, baidu research baidu research baidu quantum 百度 百度量子 百度研究院 纠缠分析 量子硬件验证 量子算法基准测试 量子计算供应商 变分量子算法 超导量子比特 schmidt 分解估计 变分 ansatz 量子硬件验证 量子算法基准测试 china 中国 beijing 北京 china 中国 beijing 北京 physical review applied article arxiv preprint official-web"
     },
     {
       "material_id": "he202508nonvariational",
@@ -42635,7 +42635,7 @@
       "reader_topics": [
         {
           "value": "measurement-error-mitigation",
-          "reader_label": "??????",
+          "reader_label": "测量误差缓解",
           "relations": [
             {
               "predicate": "uses-technique",
@@ -42649,7 +42649,7 @@
       "reader_techniques": [
         {
           "value": "truncated-neumann-series",
-          "reader_label": "?? Neumann ??",
+          "reader_label": "截断 Neumann 级数",
           "relations": [
             {
               "predicate": "supports-task",
@@ -42681,12 +42681,12 @@
         {
           "kind": "topic",
           "value": "measurement-error-mitigation",
-          "reader_label": "??????"
+          "reader_label": "测量误差缓解"
         },
         {
           "kind": "technique",
           "value": "truncated-neumann-series",
-          "reader_label": "?? Neumann ??"
+          "reader_label": "截断 Neumann 级数"
         },
         {
           "kind": "technique",
@@ -42784,7 +42784,7 @@
             {
               "id": "measurement-error-mitigation",
               "label": "measurement error mitigation",
-              "zh_label": "??????"
+              "zh_label": "测量误差缓解"
             }
           ],
           "applications": [
@@ -42813,7 +42813,7 @@
             {
               "id": "truncated-neumann-series",
               "label": "truncated Neumann series",
-              "zh_label": "?? Neumann ??"
+              "zh_label": "截断 Neumann 级数"
             },
             {
               "id": "error-mitigation",
@@ -42831,11 +42831,11 @@
           "error-mitigation"
         ],
         "display_values": [
-          "??????",
+          "测量误差缓解",
           "量子硬件验证",
           "量子算法基准测试",
           "量子计算供应商",
-          "?? Neumann ??",
+          "截断 Neumann 级数",
           "误差缓解"
         ]
       },
@@ -42943,8 +42943,8 @@
           "source": "manual venue seed for discovery-gap repair"
         }
       },
-      "reader_search_text": "measurement error mitigation via truncated neumann series 用截断 neumann 级数缓解量子测量误差，降低近端设备读数校正流程主要成本 wang202103measurement measurement error mitigation truncated neumann series readout errors near-term quantum processors baidu research measurement error mitigation truncated neumann series readout errors near term quantum processors baidu research 百度 baidu institute for quantum computing, baidu research baidu research baidu quantum 百度 百度量子 百度研究院 ?????? 量子硬件验证 量子算法基准测试 量子计算供应商 ?? neumann ?? 误差缓解 量子硬件验证 量子算法基准测试 china 中国 beijing 北京 china 中国 beijing 北京 arxiv preprint arxiv",
-      "search_text": "measurement error mitigation via truncated neumann series 用截断 neumann 级数缓解量子测量误差，降低近端设备读数校正流程主要成本 wang202103measurement measurement error mitigation truncated neumann series readout errors near-term quantum processors baidu research measurement error mitigation truncated neumann series readout errors near term quantum processors baidu research 百度 baidu institute for quantum computing, baidu research baidu research baidu quantum 百度 百度量子 百度研究院 ?????? 量子硬件验证 量子算法基准测试 量子计算供应商 ?? neumann ?? 误差缓解 量子硬件验证 量子算法基准测试 china 中国 beijing 北京 china 中国 beijing 北京 arxiv preprint arxiv"
+      "reader_search_text": "measurement error mitigation via truncated neumann series 用截断 neumann 级数缓解量子测量误差，降低近端设备读数校正流程主要成本 wang202103measurement measurement error mitigation truncated neumann series readout errors near-term quantum processors baidu research measurement error mitigation truncated neumann series readout errors near term quantum processors baidu research 百度 baidu institute for quantum computing, baidu research baidu research baidu quantum 百度 百度量子 百度研究院 测量误差缓解 量子硬件验证 量子算法基准测试 量子计算供应商 截断 neumann 级数 误差缓解 量子硬件验证 量子算法基准测试 china 中国 beijing 北京 china 中国 beijing 北京 arxiv preprint arxiv",
+      "search_text": "measurement error mitigation via truncated neumann series 用截断 neumann 级数缓解量子测量误差，降低近端设备读数校正流程主要成本 wang202103measurement measurement error mitigation truncated neumann series readout errors near-term quantum processors baidu research measurement error mitigation truncated neumann series readout errors near term quantum processors baidu research 百度 baidu institute for quantum computing, baidu research baidu research baidu quantum 百度 百度量子 百度研究院 测量误差缓解 量子硬件验证 量子算法基准测试 量子计算供应商 截断 neumann 级数 误差缓解 量子硬件验证 量子算法基准测试 china 中国 beijing 北京 china 中国 beijing 北京 arxiv preprint arxiv"
     },
     {
       "material_id": "zhan202212experimental",
@@ -46134,7 +46134,7 @@
       "reader_techniques": [
         {
           "value": "quantum-data-encoding",
-          "reader_label": "??????",
+          "reader_label": "量子数据编码",
           "relations": [
             {
               "predicate": "supports-task",
@@ -46166,7 +46166,7 @@
         {
           "kind": "technique",
           "value": "quantum-data-encoding",
-          "reader_label": "??????"
+          "reader_label": "量子数据编码"
         },
         {
           "kind": "technique",
@@ -46302,7 +46302,7 @@
             {
               "id": "quantum-data-encoding",
               "label": "quantum data encoding",
-              "zh_label": "??????"
+              "zh_label": "量子数据编码"
             },
             {
               "id": "variational-ansatz",
@@ -46324,7 +46324,7 @@
           "量子算法基准测试",
           "量子计算供应商",
           "变分量子算法",
-          "??????",
+          "量子数据编码",
           "变分 ansatz"
         ]
       },
@@ -46431,8 +46431,8 @@
           "source": "manual venue seed for discovery-gap repair"
         }
       },
-      "reader_search_text": "concentration of data encoding in parameterized quantum circuits 揭示参数化量子线路的数据编码集中现象，提醒量子分类器需控制编码深度 li202210concentration data encoding parameterized quantum circuit quantum neural network concentration baidu research data encoding parameterized quantum circuit quantum neural network concentration baidu research 百度 baidu institute for quantum computing, baidu research baidu research baidu quantum 百度 百度量子 百度研究院 量子机器学习 量子算法基准测试 量子计算供应商 变分量子算法 ?????? 变分 ansatz 量子算法基准测试 china 中国 beijing 北京 china 中国 beijing 北京 neurips 2022 paper arxiv preprint official-web",
-      "search_text": "concentration of data encoding in parameterized quantum circuits 揭示参数化量子线路的数据编码集中现象，提醒量子分类器需控制编码深度 li202210concentration data encoding parameterized quantum circuit quantum neural network concentration baidu research data encoding parameterized quantum circuit quantum neural network concentration baidu research 百度 baidu institute for quantum computing, baidu research baidu research baidu quantum 百度 百度量子 百度研究院 量子机器学习 量子算法基准测试 量子计算供应商 变分量子算法 ?????? 变分 ansatz 量子算法基准测试 china 中国 beijing 北京 china 中国 beijing 北京 neurips 2022 paper arxiv preprint official-web"
+      "reader_search_text": "concentration of data encoding in parameterized quantum circuits 揭示参数化量子线路的数据编码集中现象，提醒量子分类器需控制编码深度 li202210concentration data encoding parameterized quantum circuit quantum neural network concentration baidu research data encoding parameterized quantum circuit quantum neural network concentration baidu research 百度 baidu institute for quantum computing, baidu research baidu research baidu quantum 百度 百度量子 百度研究院 量子机器学习 量子算法基准测试 量子计算供应商 变分量子算法 量子数据编码 变分 ansatz 量子算法基准测试 china 中国 beijing 北京 china 中国 beijing 北京 neurips 2022 paper arxiv preprint official-web",
+      "search_text": "concentration of data encoding in parameterized quantum circuits 揭示参数化量子线路的数据编码集中现象，提醒量子分类器需控制编码深度 li202210concentration data encoding parameterized quantum circuit quantum neural network concentration baidu research data encoding parameterized quantum circuit quantum neural network concentration baidu research 百度 baidu institute for quantum computing, baidu research baidu research baidu quantum 百度 百度量子 百度研究院 量子机器学习 量子算法基准测试 量子计算供应商 变分量子算法 量子数据编码 变分 ansatz 量子算法基准测试 china 中国 beijing 北京 china 中国 beijing 北京 neurips 2022 paper arxiv preprint official-web"
     },
     {
       "material_id": "wang202205detecting",
@@ -46478,7 +46478,7 @@
       "reader_topics": [
         {
           "value": "entanglement-analysis",
-          "reader_label": "????",
+          "reader_label": "纠缠分析",
           "relations": [],
           "retired": false,
           "badge_parent_id": ""
@@ -46487,7 +46487,7 @@
       "reader_techniques": [
         {
           "value": "quasi-probability-decomposition",
-          "reader_label": "?????",
+          "reader_label": "准概率分解",
           "relations": [],
           "retired": false,
           "badge_parent_id": ""
@@ -46509,12 +46509,12 @@
         {
           "kind": "topic",
           "value": "entanglement-analysis",
-          "reader_label": "????"
+          "reader_label": "纠缠分析"
         },
         {
           "kind": "technique",
           "value": "quasi-probability-decomposition",
-          "reader_label": "?????"
+          "reader_label": "准概率分解"
         },
         {
           "kind": "technique",
@@ -46622,7 +46622,7 @@
             {
               "id": "entanglement-analysis",
               "label": "entanglement analysis",
-              "zh_label": "????"
+              "zh_label": "纠缠分析"
             }
           ],
           "applications": [
@@ -46652,7 +46652,7 @@
             {
               "id": "quasi-probability-decomposition",
               "label": "quasi-probability decomposition",
-              "zh_label": "?????"
+              "zh_label": "准概率分解"
             },
             {
               "id": "variational-ansatz",
@@ -46670,11 +46670,11 @@
           "variational-ansatz"
         ],
         "display_values": [
-          "????",
+          "纠缠分析",
           "量子算法基准测试",
           "量子计算供应商",
           "变分量子算法",
-          "?????",
+          "准概率分解",
           "变分 ansatz"
         ]
       },
@@ -46782,8 +46782,8 @@
           "source": "manual venue seed for discovery-gap repair"
         }
       },
-      "reader_search_text": "detecting and quantifying entanglement on near-term quantum devices 用变分算法和准概率分解检测并量化近端设备纠缠，降低实验测量资源负担 wang202205detecting entanglement detection logarithmic negativity variational algorithm quasi-probability decomposition baidu research entanglement detection logarithmic negativity variational algorithm quasi probability decomposition baidu research 百度 baidu institute for quantum computing, baidu research baidu research baidu quantum 百度 百度量子 百度研究院 ???? 量子算法基准测试 量子计算供应商 变分量子算法 ????? 变分 ansatz 量子算法基准测试 china 中国 beijing 北京 china 中国 beijing 北京 npj quantum information article arxiv preprint npj-quantum-information",
-      "search_text": "detecting and quantifying entanglement on near-term quantum devices 用变分算法和准概率分解检测并量化近端设备纠缠，降低实验测量资源负担 wang202205detecting entanglement detection logarithmic negativity variational algorithm quasi-probability decomposition baidu research entanglement detection logarithmic negativity variational algorithm quasi probability decomposition baidu research 百度 baidu institute for quantum computing, baidu research baidu research baidu quantum 百度 百度量子 百度研究院 ???? 量子算法基准测试 量子计算供应商 变分量子算法 ????? 变分 ansatz 量子算法基准测试 china 中国 beijing 北京 china 中国 beijing 北京 npj quantum information article arxiv preprint npj-quantum-information"
+      "reader_search_text": "detecting and quantifying entanglement on near-term quantum devices 用变分算法和准概率分解检测并量化近端设备纠缠，降低实验测量资源负担 wang202205detecting entanglement detection logarithmic negativity variational algorithm quasi-probability decomposition baidu research entanglement detection logarithmic negativity variational algorithm quasi probability decomposition baidu research 百度 baidu institute for quantum computing, baidu research baidu research baidu quantum 百度 百度量子 百度研究院 纠缠分析 量子算法基准测试 量子计算供应商 变分量子算法 准概率分解 变分 ansatz 量子算法基准测试 china 中国 beijing 北京 china 中国 beijing 北京 npj quantum information article arxiv preprint npj-quantum-information",
+      "search_text": "detecting and quantifying entanglement on near-term quantum devices 用变分算法和准概率分解检测并量化近端设备纠缠，降低实验测量资源负担 wang202205detecting entanglement detection logarithmic negativity variational algorithm quasi-probability decomposition baidu research entanglement detection logarithmic negativity variational algorithm quasi probability decomposition baidu research 百度 baidu institute for quantum computing, baidu research baidu research baidu quantum 百度 百度量子 百度研究院 纠缠分析 量子算法基准测试 量子计算供应商 变分量子算法 准概率分解 变分 ansatz 量子算法基准测试 china 中国 beijing 北京 china 中国 beijing 北京 npj quantum information article arxiv preprint npj-quantum-information"
     },
     {
       "material_id": "wang202312quantumphaseprocessing",
@@ -48265,14 +48265,14 @@
       "reader_topics": [
         {
           "value": "distributed-quantum-information-processing",
-          "reader_label": "?????????",
+          "reader_label": "分布式量子信息处理",
           "relations": [],
           "retired": false,
           "badge_parent_id": ""
         },
         {
           "value": "entanglement-analysis",
-          "reader_label": "????",
+          "reader_label": "纠缠分析",
           "relations": [],
           "retired": false,
           "badge_parent_id": ""
@@ -48281,7 +48281,7 @@
       "reader_techniques": [
         {
           "value": "locc-protocol-optimization",
-          "reader_label": "LOCC ????",
+          "reader_label": "LOCC 协议优化",
           "relations": [
             {
               "predicate": "supports-task",
@@ -48308,12 +48308,12 @@
         {
           "kind": "topic",
           "value": "distributed-quantum-information-processing",
-          "reader_label": "?????????"
+          "reader_label": "分布式量子信息处理"
         },
         {
           "kind": "technique",
           "value": "locc-protocol-optimization",
-          "reader_label": "LOCC ????"
+          "reader_label": "LOCC 协议优化"
         },
         {
           "kind": "technique",
@@ -48421,12 +48421,12 @@
             {
               "id": "distributed-quantum-information-processing",
               "label": "distributed quantum information processing",
-              "zh_label": "?????????"
+              "zh_label": "分布式量子信息处理"
             },
             {
               "id": "entanglement-analysis",
               "label": "entanglement analysis",
-              "zh_label": "????"
+              "zh_label": "纠缠分析"
             }
           ],
           "applications": [
@@ -48456,7 +48456,7 @@
             {
               "id": "locc-protocol-optimization",
               "label": "LOCC protocol optimization",
-              "zh_label": "LOCC ????"
+              "zh_label": "LOCC 协议优化"
             },
             {
               "id": "variational-ansatz",
@@ -48475,12 +48475,12 @@
           "variational-ansatz"
         ],
         "display_values": [
-          "?????????",
-          "????",
+          "分布式量子信息处理",
+          "纠缠分析",
           "量子算法基准测试",
           "量子计算供应商",
           "变分量子算法",
-          "LOCC ????",
+          "LOCC 协议优化",
           "变分 ansatz"
         ]
       },
@@ -48588,8 +48588,8 @@
           "source": "manual venue seed for discovery-gap repair"
         }
       },
-      "reader_search_text": "practical distributed quantum information processing with loccnet 用 loccnet 设计分布式量子信息协议，优化纠缠蒸馏、态区分和信道模拟任务 zhao202111practical loccnet distributed quantum information processing entanglement distillation quantum state discrimination baidu research loccnet distributed quantum information processing entanglement distillation quantum state discrimination baidu research 百度 baidu institute for quantum computing, baidu research baidu research baidu quantum 百度 百度量子 百度研究院 ????????? ???? 量子算法基准测试 量子计算供应商 变分量子算法 locc ???? 变分 ansatz 量子算法基准测试 china 中国 beijing 北京 china 中国 beijing 北京 npj quantum information article arxiv preprint npj-quantum-information",
-      "search_text": "practical distributed quantum information processing with loccnet 用 loccnet 设计分布式量子信息协议，优化纠缠蒸馏、态区分和信道模拟任务 zhao202111practical loccnet distributed quantum information processing entanglement distillation quantum state discrimination baidu research loccnet distributed quantum information processing entanglement distillation quantum state discrimination baidu research 百度 baidu institute for quantum computing, baidu research baidu research baidu quantum 百度 百度量子 百度研究院 ????????? ???? 量子算法基准测试 量子计算供应商 变分量子算法 locc ???? 变分 ansatz 量子算法基准测试 china 中国 beijing 北京 china 中国 beijing 北京 npj quantum information article arxiv preprint npj-quantum-information"
+      "reader_search_text": "practical distributed quantum information processing with loccnet 用 loccnet 设计分布式量子信息协议，优化纠缠蒸馏、态区分和信道模拟任务 zhao202111practical loccnet distributed quantum information processing entanglement distillation quantum state discrimination baidu research loccnet distributed quantum information processing entanglement distillation quantum state discrimination baidu research 百度 baidu institute for quantum computing, baidu research baidu research baidu quantum 百度 百度量子 百度研究院 分布式量子信息处理 纠缠分析 量子算法基准测试 量子计算供应商 变分量子算法 locc 协议优化 变分 ansatz 量子算法基准测试 china 中国 beijing 北京 china 中国 beijing 北京 npj quantum information article arxiv preprint npj-quantum-information",
+      "search_text": "practical distributed quantum information processing with loccnet 用 loccnet 设计分布式量子信息协议，优化纠缠蒸馏、态区分和信道模拟任务 zhao202111practical loccnet distributed quantum information processing entanglement distillation quantum state discrimination baidu research loccnet distributed quantum information processing entanglement distillation quantum state discrimination baidu research 百度 baidu institute for quantum computing, baidu research baidu research baidu quantum 百度 百度量子 百度研究院 分布式量子信息处理 纠缠分析 量子算法基准测试 量子计算供应商 变分量子算法 locc 协议优化 变分 ansatz 量子算法基准测试 china 中国 beijing 北京 china 中国 beijing 北京 npj quantum information article arxiv preprint npj-quantum-information"
     },
     {
       "material_id": "9720593ba907",
@@ -50436,7 +50436,7 @@
     }
   ],
   "relations": {
-    "generated_at": "2026-06-07T16:10:20+00:00",
+    "generated_at": "2026-06-07T16:37:57+00:00",
     "entries": {
       "b002b4cc8ad8": {
         "related": [
