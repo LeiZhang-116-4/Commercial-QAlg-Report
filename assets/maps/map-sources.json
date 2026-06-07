@@ -1,0 +1,19 @@
+{
+  "world_regions": {
+    "asset": "world-regions.geojson",
+    "purpose": "Offline country-outline world map colored by coarse report aggregation buckets.",
+    "source_reference": "Natural Earth public-domain 1:110m Admin 0 country vectors, retrieved from the Natural Earth vector GitHub mirror during visual repair.",
+    "license_note": "Natural Earth vector and raster map data are public domain.",
+    "normalization": "Country features keep lightweight names and ISO codes, Antarctica is excluded, and each feature is assigned to one report_region: North America, South America, Europe, Africa, Oceania, Asia outside China, or China. Taiwan is displayed as Taiwan Province and mapped to China for this report visualization.",
+    "report_caveat": "The map is a country-outline reader visualization for coarse report regions, not a political boundary authority."
+  },
+  "china_provinces": {
+    "asset": "china-provinces.geojson",
+    "purpose": "Offline China province map for ECharts rendering.",
+    "source_reference": "GeoJSON.cn TianDiTu national standard vector atlas API, endpoint https://geojson.cn/api/tiandi/100000.json, retrieved during report implementation.",
+    "official_reference": "Natural Resources Ministry standard map service is used as the official cartographic reference basis for report caveats.",
+    "coordinate_system": "CGCS2000 / EPSG:4490 as documented by GeoJSON.cn for the TianDiTu atlas.",
+    "normalization": "Feature properties are rewritten to English report labels; Taiwan Province is retained as a province-level label.",
+    "report_caveat": "The interactive province layer is for report visualization and must be read with the source and standard map caveats."
+  }
+}
