@@ -625,7 +625,7 @@
       <li>
         <strong>${escapeHtml(item.axis_zh)} ${Number(item.points || 0)}/${Number(item.assessment_max_points || 0)}</strong>
         <span>${escapeHtml(item.zh_label)}</span>
-        <p>${escapeHtml(item.reader_rationale || item.rationale)}</p>
+        <p>${escapeHtml(item.reader_rationale || '')}</p>
       </li>`).join("");
     const evidenceItems = selected.evidence_items.map((item) => `
       <li>
