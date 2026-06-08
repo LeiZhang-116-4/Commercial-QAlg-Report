@@ -6,7 +6,7 @@
     "from": "2021-01",
     "through": "2026-05"
   },
-  "generated_at": "2026-06-07T16:37:57+00:00",
+  "generated_at": "2026-06-08T00:48:09+00:00",
   "entry_count": 59,
   "score_display": {
     "reader_label_zh": "商业进展指数",
@@ -50436,7 +50436,7 @@
     }
   ],
   "relations": {
-    "generated_at": "2026-06-07T16:37:57+00:00",
+    "generated_at": "2026-06-08T00:48:09+00:00",
     "entries": {
       "b002b4cc8ad8": {
         "related": [
@@ -50853,7 +50853,7 @@
     "world_regions": [
       {
         "name": "North America",
-        "value": 100.0,
+        "value": 54.66,
         "contribution_total": 391.43666666666655,
         "entry_count": 34
       },
@@ -50865,7 +50865,7 @@
       },
       {
         "name": "Europe",
-        "value": 29.35,
+        "value": 16.05,
         "contribution_total": 114.905,
         "entry_count": 11
       },
@@ -50883,13 +50883,13 @@
       },
       {
         "name": "Asia outside China",
-        "value": 34.64,
+        "value": 18.93,
         "contribution_total": 135.59833333333336,
         "entry_count": 13
       },
       {
         "name": "China",
-        "value": 18.95,
+        "value": 10.36,
         "contribution_total": 74.19,
         "entry_count": 12
       }
@@ -50898,7 +50898,7 @@
       {
         "name": "Austria",
         "zh_name": "奥地利",
-        "value": 12.28,
+        "value": 5.98,
         "contribution_total": 42.824999999999996,
         "entry_count": 3,
         "company_count": 1
@@ -50906,7 +50906,7 @@
       {
         "name": "Canada",
         "zh_name": "加拿大",
-        "value": 12.2,
+        "value": 5.94,
         "contribution_total": 42.56666666666666,
         "entry_count": 5,
         "company_count": 2
@@ -50914,7 +50914,7 @@
       {
         "name": "China",
         "zh_name": "中国",
-        "value": 21.27,
+        "value": 10.36,
         "contribution_total": 74.19,
         "entry_count": 12,
         "company_count": 4
@@ -50922,7 +50922,7 @@
       {
         "name": "France",
         "zh_name": "法国",
-        "value": 1.38,
+        "value": 0.67,
         "contribution_total": 4.825,
         "entry_count": 1,
         "company_count": 1
@@ -50930,7 +50930,7 @@
       {
         "name": "Germany",
         "zh_name": "德国",
-        "value": 4.51,
+        "value": 2.2,
         "contribution_total": 15.73,
         "entry_count": 3,
         "company_count": 2
@@ -50938,7 +50938,7 @@
       {
         "name": "Israel",
         "zh_name": "以色列",
-        "value": 1.06,
+        "value": 0.51,
         "contribution_total": 3.6833333333333336,
         "entry_count": 1,
         "company_count": 0
@@ -50946,7 +50946,7 @@
       {
         "name": "Italy",
         "zh_name": "意大利",
-        "value": 3.99,
+        "value": 1.94,
         "contribution_total": 13.92,
         "entry_count": 2,
         "company_count": 3
@@ -50954,7 +50954,7 @@
       {
         "name": "Japan",
         "zh_name": "日本",
-        "value": 17.81,
+        "value": 8.67,
         "contribution_total": 62.12000000000002,
         "entry_count": 5,
         "company_count": 5
@@ -50962,7 +50962,7 @@
       {
         "name": "South Korea",
         "zh_name": "韩国",
-        "value": 2.61,
+        "value": 1.27,
         "contribution_total": 9.105,
         "entry_count": 1,
         "company_count": 1
@@ -50970,7 +50970,7 @@
       {
         "name": "Spain",
         "zh_name": "西班牙",
-        "value": 2.73,
+        "value": 1.33,
         "contribution_total": 9.530000000000001,
         "entry_count": 2,
         "company_count": 2
@@ -50978,7 +50978,7 @@
       {
         "name": "Switzerland",
         "zh_name": "瑞士",
-        "value": 10.33,
+        "value": 5.03,
         "contribution_total": 36.045,
         "entry_count": 5,
         "company_count": 1
@@ -50986,7 +50986,7 @@
       {
         "name": "United Arab Emirates",
         "zh_name": "阿联酋",
-        "value": 4.78,
+        "value": 2.33,
         "contribution_total": 16.685,
         "entry_count": 1,
         "company_count": 1
@@ -50994,7 +50994,7 @@
       {
         "name": "United Kingdom",
         "zh_name": "英国",
-        "value": 10.33,
+        "value": 5.03,
         "contribution_total": 36.035000000000004,
         "entry_count": 4,
         "company_count": 3
@@ -51002,7 +51002,7 @@
       {
         "name": "United States",
         "zh_name": "美国",
-        "value": 100.0,
+        "value": 48.74,
         "contribution_total": 348.86999999999983,
         "entry_count": 30,
         "company_count": 13
@@ -51011,7 +51011,7 @@
     "china_provinces": [
       {
         "name": "Beijing",
-        "value": 100.0,
+        "value": 7.8,
         "contribution_total": 55.92000000000001,
         "entry_count": 9
       },
@@ -51065,7 +51065,7 @@
       },
       {
         "name": "Jiangsu",
-        "value": 9.82,
+        "value": 0.77,
         "contribution_total": 5.49,
         "entry_count": 1
       },
@@ -51077,7 +51077,7 @@
       },
       {
         "name": "Anhui",
-        "value": 13.82,
+        "value": 1.08,
         "contribution_total": 7.73,
         "entry_count": 1
       },
@@ -51119,7 +51119,7 @@
       },
       {
         "name": "Guangdong",
-        "value": 9.03,
+        "value": 0.71,
         "contribution_total": 5.05,
         "entry_count": 1
       },

@@ -255,6 +255,13 @@
     return country === "Taiwan Province" ? "China" : country;
   }
 
+  function chinaProvinceForLocation(location) {
+    if (!location) return "";
+    if (location.country === "Taiwan Province") return "Taiwan Province";
+    if (location.country === "China") return location.region || "";
+    return "";
+  }
+
   function displayCountry(name) {
     if (name === "Taiwan Province") return "台湾 · 中国";
     return countryZh[name] || name;
@@ -357,14 +364,25 @@
     buckets[name].company_ids.add(companyId);
   }
 
-  function finalizeBuckets(buckets) {
-    const values = Object.values(buckets);
-    const max = Math.max(0, ...values.map((item) => item.contribution_total));
+  function bucketContributionTotal(buckets) {
+    return Object.values(buckets).reduce((total, item) => total + item.contribution_total, 0);
+  }
+
+  function finalizeBuckets(buckets, normalizationTotal) {
+    const total = normalizationTotal ?? bucketContributionTotal(buckets);
     Object.values(buckets).forEach((item) => {
       item.entry_count = item.entry_ids.size;
       item.company_count = item.company_ids.size;
-      item.progress_index = max ? (item.contribution_total / max) * 100 : 0;
+      item.progress_index = total ? (item.contribution_total / total) * 100 : 0;
     });
+    const visibleTotal = bucketContributionTotal(buckets);
+    const targetIndexTotal = total ? Number(((visibleTotal / total) * 100).toFixed(2)) : 0;
+    const roundedTotal = Number(Object.values(buckets).reduce((sum, item) => sum + Number(item.progress_index.toFixed(2)), 0).toFixed(2));
+    const roundingDelta = Number((targetIndexTotal - roundedTotal).toFixed(2));
+    if (roundingDelta) {
+      const target = Object.values(buckets).sort((a, b) => b.contribution_total - a.contribution_total)[0];
+      if (target) target.progress_index += roundingDelta;
+    }
     return buckets;
   }
 
@@ -379,8 +397,9 @@
     materials.forEach((material) => {
       (material.companies || []).forEach((company) => {
         addCompanyBucket(world, worldBucketCountry(company.country), company.company_id);
-        if (company.country === "China" && company.region) {
-          addCompanyBucket(china, company.region, company.company_id);
+        const provinceName = chinaProvinceForLocation(company);
+        if (provinceName) {
+          addCompanyBucket(china, provinceName, company.company_id);
         }
       });
       const affiliations = (material.affiliations || []).filter((item) => item.country);
@@ -388,12 +407,14 @@
       const weight = asScore(material) / affiliations.length;
       affiliations.forEach((affiliation) => {
         addBucket(world, worldBucketCountry(affiliation.country), weight, material.material_id);
-        if (affiliation.country === "China" && affiliation.region) {
-          addBucket(china, affiliation.region, weight, material.material_id);
+        const provinceName = chinaProvinceForLocation(affiliation);
+        if (provinceName) {
+          addBucket(china, provinceName, weight, material.material_id);
         }
       });
     });
-    return { world: finalizeBuckets(world), china: finalizeBuckets(china) };
+    const worldTotal = bucketContributionTotal(world);
+    return { world: finalizeBuckets(world, worldTotal), china: finalizeBuckets(china, worldTotal) };
   }
 
   function mapDataFromBuckets(buckets, names) {
@@ -407,6 +428,38 @@
         company_count: item.company_count
       };
     });
+  }
+
+  function maxUniqueWorldValue(worldData) {
+    const values = new Map();
+    worldData.forEach((item) => {
+      const key = item.country_key || item.name;
+      if (!values.has(key)) values.set(key, item.value || 0);
+    });
+    return Math.max(0, ...Array.from(values.values()));
+  }
+
+  function buildActivityVisualMap(maxValue) {
+    const cap = Math.max(maxValue || 0, 1);
+    const colors = ["#dceade", "#bed9c8", "#91bea5", "#5f997f", "#347464", "#103c34"];
+    const stops = [0.05, 0.12, 0.25, 0.45, 0.7, 1].map((ratio) => Number((cap * ratio).toFixed(3)));
+    const pieces = [{ min: 0, max: 0, color: "#f5f6f2" }];
+    let previous = 0;
+    stops.forEach((stop, index) => {
+      pieces.push({
+        min: Number((previous + 0.001).toFixed(3)),
+        max: stop,
+        color: colors[index]
+      });
+      previous = stop;
+    });
+    return {
+      type: "piecewise",
+      min: 0,
+      max: Number(maxValue.toFixed(2)),
+      show: false,
+      pieces
+    };
   }
 
   function worldMapDataFromBuckets(buckets) {
@@ -708,19 +761,7 @@
         return `<strong>${escapeHtml(displayName)}</strong><br>活跃指数：${Number(item.value || 0).toFixed(1)}`;
       }
     };
-    const visualMap = {
-      type: "piecewise",
-      min: 0,
-      max: 100,
-      show: false,
-      pieces: [
-        { min: 0, max: 0, color: "#f5f6f2" },
-        { min: 0.01, max: 12, color: "#b7d5c4" },
-        { min: 12.01, max: 35, color: "#78aa94" },
-        { min: 35.01, max: 65, color: "#3e7868" },
-        { min: 65.01, max: 100, color: "#18473d" }
-      ]
-    };
+    const visualMap = buildActivityVisualMap(maxUniqueWorldValue(worldData));
     echarts.registerMap("worldRegions", report.maps.world_regions);
     echarts.registerMap("chinaProvinces", report.maps.china_provinces);
     if (!charts.world) {
@@ -728,12 +769,7 @@
       charts.world.on("click", (params) => {
         charts.world.dispatchAction({ type: "unselect", seriesIndex: 0, name: params.name });
         const key = params.data && params.data.country_key;
-        if (params.name === "China" || key === "China" || params.name === "Taiwan Province" || key === "Taiwan Province") {
-          state.pinnedRegion = null;
-          showChina();
-          return;
-        }
-        setPinnedRegion("world", key);
+        selectWorldFeature(params.name, key);
       });
       charts.world.on("mouseover", (params) => {
         const key = params.data && params.data.country_key;
@@ -846,6 +882,15 @@
 
   function showWorld() {
     switchMap("world");
+  }
+
+  function selectWorldFeature(name, countryKey) {
+    if (name === "China" || countryKey === "China" || name === "Taiwan Province" || countryKey === "Taiwan Province") {
+      state.pinnedRegion = null;
+      showChina();
+      return;
+    }
+    setPinnedRegion("world", countryKey);
   }
 
   function render() {
@@ -1070,6 +1115,7 @@
     render,
     showChina,
     showWorld,
+    selectWorldFeature,
     setHoverRegion,
     setPinnedRegion,
     setTimelineRange
