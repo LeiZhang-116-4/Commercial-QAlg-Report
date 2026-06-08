@@ -812,7 +812,7 @@
       charts.china = echarts.init(byId("china-map"));
       charts.china.on("click", (params) => {
         charts.china.dispatchAction({ type: "unselect", seriesIndex: 0, name: params.name });
-        setPinnedRegion("china", params.name);
+        selectChinaFeature(params.name);
       });
       charts.china.on("mouseover", (params) => {
         state.hoverRegion = params.name ? { mode: "china", key: params.name } : null;
@@ -865,9 +865,6 @@
       state.pinnedRegion = null;
       byId("world-map-panel").hidden = targetMode !== "world";
       byId("china-map-panel").hidden = targetMode !== "china";
-      if (targetMode === "china" && !charts.china && window.echarts) {
-        charts.china = echarts.init(byId("china-map"));
-      }
       render();
       window.requestAnimationFrame(() => {
         Object.values(charts).forEach((chart) => chart && chart.resize());
@@ -1109,6 +1106,10 @@
     renderTopEvents(visibleMaterials());
   }
 
+  function selectChinaFeature(province) {
+    setPinnedRegion("china", province);
+  }
+
   window.qalgReportState = {
     state,
     visibleMaterials,
@@ -1116,6 +1117,7 @@
     showChina,
     showWorld,
     selectWorldFeature,
+    selectChinaFeature,
     setHoverRegion,
     setPinnedRegion,
     setTimelineRange
