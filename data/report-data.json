@@ -6,7 +6,7 @@
     "from": "2021-01",
     "through": "2026-05"
   },
-  "generated_at": "2026-06-08T09:00:45+00:00",
+  "generated_at": "2026-06-08T10:11:08+00:00",
   "entry_count": 135,
   "score_display": {
     "reader_label_zh": "商业进展指数",
@@ -33062,7 +33062,7 @@
       "month_label": "2026 年 3 月",
       "date_label": "2026 年 3 月 16 日",
       "title": "QAOA-Driven PMU placement optimization with graph learning-based parameter initialization refinement",
-      "reader_summary_zh": "作者参与的 QAOA 电网 PMU 优化，用图学习改进参数初始化并减少测量开销",
+      "reader_summary_zh": "用 QAOA 优化电网 PMU 布点，并用图学习改进初始参数、减少测量与搜索开销",
       "keywords": [
         "QAOA",
         "PMU placement",
@@ -33408,8 +33408,8 @@
           "needs_check": true
         }
       },
-      "reader_search_text": "qaoa-driven pmu placement optimization with graph learning-based parameter initialization refinement 作者参与的 qaoa 电网 pmu 优化，用图学习改进参数初始化并减少测量开销 jiang202603qaoa qaoa pmu placement graph learning quera qaoa pmu placement graph learning quera quera computing quera computing quera inc. quera quera computing inc. 量子优化 变分量子算法 qaoa ansatz 中性原子 工业优化 量子算法基准测试 量子计算供应商 工业优化 量子算法基准测试 united states 美国 massachusetts 马萨诸塞州 united states 美国 massachusetts 马萨诸塞州 quantum machine intelligence article ",
-      "search_text": "qaoa-driven pmu placement optimization with graph learning-based parameter initialization refinement 作者参与的 qaoa 电网 pmu 优化，用图学习改进参数初始化并减少测量开销 jiang202603qaoa qaoa pmu placement graph learning quera qaoa pmu placement graph learning quera quera computing quera computing quera inc. quera quera computing inc. 量子优化 变分量子算法 qaoa ansatz 中性原子 工业优化 量子算法基准测试 量子计算供应商 工业优化 量子算法基准测试 united states 美国 massachusetts 马萨诸塞州 united states 美国 massachusetts 马萨诸塞州 quantum machine intelligence article "
+      "reader_search_text": "qaoa-driven pmu placement optimization with graph learning-based parameter initialization refinement 用 qaoa 优化电网 pmu 布点，并用图学习改进初始参数、减少测量与搜索开销 jiang202603qaoa qaoa pmu placement graph learning quera qaoa pmu placement graph learning quera quera computing quera computing quera inc. quera quera computing inc. 量子优化 变分量子算法 qaoa ansatz 中性原子 工业优化 量子算法基准测试 量子计算供应商 工业优化 量子算法基准测试 united states 美国 massachusetts 马萨诸塞州 united states 美国 massachusetts 马萨诸塞州 quantum machine intelligence article ",
+      "search_text": "qaoa-driven pmu placement optimization with graph learning-based parameter initialization refinement 用 qaoa 优化电网 pmu 布点，并用图学习改进初始参数、减少测量与搜索开销 jiang202603qaoa qaoa pmu placement graph learning quera qaoa pmu placement graph learning quera quera computing quera computing quera inc. quera quera computing inc. 量子优化 变分量子算法 qaoa ansatz 中性原子 工业优化 量子算法基准测试 量子计算供应商 工业优化 量子算法基准测试 united states 美国 massachusetts 马萨诸塞州 united states 美国 massachusetts 马萨诸塞州 quantum machine intelligence article "
     },
     {
       "material_id": "raymond202304hybrid",
@@ -86728,7 +86728,7 @@
       "month_label": "2026 年 3 月",
       "date_label": "2026 年 3 月 16 日",
       "title": "QAOA-Driven PMU placement optimization with graph learning-based parameter initialization refinement",
-      "reader_summary_zh": "作者参与的 QAOA 电网 PMU 优化，用图学习改进参数初始化并减少测量开销",
+      "reader_summary_zh": "用 QAOA 优化电网 PMU 布点，并用图学习改进初始参数、减少测量与搜索开销",
       "keywords": [
         "QAOA",
         "PMU placement",
@@ -87074,8 +87074,8 @@
           "needs_check": true
         }
       },
-      "reader_search_text": "qaoa-driven pmu placement optimization with graph learning-based parameter initialization refinement 作者参与的 qaoa 电网 pmu 优化，用图学习改进参数初始化并减少测量开销 jiang202603qaoa qaoa pmu placement graph learning quera qaoa pmu placement graph learning quera quera computing quera computing quera inc. quera quera computing inc. 量子优化 变分量子算法 qaoa ansatz 中性原子 工业优化 量子算法基准测试 量子计算供应商 工业优化 量子算法基准测试 united states 美国 massachusetts 马萨诸塞州 united states 美国 massachusetts 马萨诸塞州 quantum machine intelligence article ",
-      "search_text": "qaoa-driven pmu placement optimization with graph learning-based parameter initialization refinement 作者参与的 qaoa 电网 pmu 优化，用图学习改进参数初始化并减少测量开销 jiang202603qaoa qaoa pmu placement graph learning quera qaoa pmu placement graph learning quera quera computing quera computing quera inc. quera quera computing inc. 量子优化 变分量子算法 qaoa ansatz 中性原子 工业优化 量子算法基准测试 量子计算供应商 工业优化 量子算法基准测试 united states 美国 massachusetts 马萨诸塞州 united states 美国 massachusetts 马萨诸塞州 quantum machine intelligence article "
+      "reader_search_text": "qaoa-driven pmu placement optimization with graph learning-based parameter initialization refinement 用 qaoa 优化电网 pmu 布点，并用图学习改进初始参数、减少测量与搜索开销 jiang202603qaoa qaoa pmu placement graph learning quera qaoa pmu placement graph learning quera quera computing quera computing quera inc. quera quera computing inc. 量子优化 变分量子算法 qaoa ansatz 中性原子 工业优化 量子算法基准测试 量子计算供应商 工业优化 量子算法基准测试 united states 美国 massachusetts 马萨诸塞州 united states 美国 massachusetts 马萨诸塞州 quantum machine intelligence article ",
+      "search_text": "qaoa-driven pmu placement optimization with graph learning-based parameter initialization refinement 用 qaoa 优化电网 pmu 布点，并用图学习改进初始参数、减少测量与搜索开销 jiang202603qaoa qaoa pmu placement graph learning quera qaoa pmu placement graph learning quera quera computing quera computing quera inc. quera quera computing inc. 量子优化 变分量子算法 qaoa ansatz 中性原子 工业优化 量子算法基准测试 量子计算供应商 工业优化 量子算法基准测试 united states 美国 massachusetts 马萨诸塞州 united states 美国 massachusetts 马萨诸塞州 quantum machine intelligence article "
     },
     {
       "material_id": "raymond202304hybrid",
@@ -110010,7 +110010,7 @@
     }
   ],
   "relations": {
-    "generated_at": "2026-06-08T09:00:45+00:00",
+    "generated_at": "2026-06-08T10:11:09+00:00",
     "entries": {
       "gonzalezcuadra202506observation": {
         "related": [
